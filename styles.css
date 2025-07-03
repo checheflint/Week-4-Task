@@ -32,6 +32,7 @@ header {
     font-weight: bold;
     text-decoration: none;
     color: white;
+    font-family: inter;
 }
 
 .nav-items a:hover {
@@ -56,6 +57,7 @@ header {
     font-weight: bold;
     text-align: center;
     color: #49454F;
+    font-family: inter;
 }
 
 .hero h2 {
@@ -63,12 +65,14 @@ header {
     font-weight: 400;
     text-align: center;
     color: #49454F;
+    font-family: inter;
 }
 
 .hero p {
     width: 600px;
     text-align: center;
     color: #49454F;
+    font-family: inter;
 }
 
 .hero .hero-cta-btn {
@@ -99,12 +103,14 @@ header {
     justify-content: center;
     padding: 60px 20px 20px 20px;
     background-color: #E8DEF8;
+    font-family: inter;
 }
 
 .why-swiftnet h2 {
     font-size: 2.5rem;
     font-weight: 400;
     color: #49454F;
+    font-family: inter;
 }
 
 .flex-container {
@@ -122,13 +128,15 @@ header {
 .flex-container h3 {
 font-weight: 600;
 color: #49454F;
+font-family: inter;
 }
 
 
 .flex-container p {
     
-font-size: 1em;
+font-size: 14px;
 color: #49454F;
+font-family: inter;
 }
 
 .flex-container > div {
