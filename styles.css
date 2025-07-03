@@ -169,7 +169,6 @@ font-family: inter;
 }
 
 .card-button:hover {
-    /* text-decoration: underline; */
     background-color: #E6E0E9;
     color: #4A4459;
     scale: 1.04;
@@ -185,6 +184,7 @@ footer {
 
 footer p {
     color: #49454F;
+    font-family: inter;
 }
 
 @media (max-width: 700px) {
