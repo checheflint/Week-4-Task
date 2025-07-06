@@ -39,10 +39,13 @@ header {
     text-decoration: underline;
 }
 
-.hero {
+/* .hero {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 85vh;
     height: 85vh;
     align-items: center;
     justify-items: center;
@@ -50,6 +53,22 @@ header {
     gap: 20px;
     background-color: #FEF7FF;
     animation: slideFromBottom 2.5s ease-out;
+} */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-height: 85vh; /* was height: 85vh */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #FEF7FF;
+    animation: slideFromBottom 2.5s ease-out;
+    box-sizing: border-box;
 }
 
 .hero h1 {
@@ -101,6 +120,10 @@ header {
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100%;
     padding: 60px 20px 20px 20px;
     background-color: #E8DEF8;
     font-family: inter;
@@ -149,7 +172,10 @@ font-family: inter;
     padding: 20px;
     border: 1px;
     border-radius: 16px;
-    width: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: 250px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
