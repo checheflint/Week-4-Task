@@ -175,7 +175,7 @@ font-family: inter;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 350px;
-    width: 350px;
+    max-width: 450px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -213,7 +213,7 @@ footer p {
     font-family: inter;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     header  {
         display: flex;
         flex-direction: column;
@@ -233,8 +233,11 @@ footer p {
         text-align: center;
         color: #49454F;
     }
+
         
 }
+
+
 
 @keyframes slideFromTop {
     from {
